@@ -1,0 +1,49 @@
+name: tiktok_clone
+description: A TikTok clone built with Flutter and Laravel backend.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # HTTP requests
+  http: ^1.1.0
+
+  # Shared Preferences for local storage
+  shared_preferences: ^2.2.2
+
+  # Image and Video handling
+  image_picker: ^1.0.4
+  video_player: ^2.8.1
+
+  # UI Components
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add custom assets here if needed
+  # assets:
+  #   - images/
+  #   - assets/
+
+  # Add custom fonts here if needed
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
